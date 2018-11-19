@@ -36,7 +36,7 @@ def echo_digits(message: Message):
         bot.send_sticker(message.chat.id, minet)
         return
     elif message.text == 'ааа' or message.text == 'ААА':
-        bot.send_sticker(message.chat.id, noga,reply_to_message_id=msg.message_id)
+        bot.send_sticker(message.chat.id, noga,reply_to_message_id=message.message_id)
         return
     elif message.text == 'Да' or message.text == 'да':
         bot.send_sticker(message.chat.id, pizda)

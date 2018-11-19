@@ -20,9 +20,6 @@ def command_handler(message: Message):
 
 @bot.message_handler(content_types = ['text', 'sticker'])
 def echo_digits(message: Message):
-    '''if message.text == 'Нет' or 'нет':
-       bot.reply_to(message, 'Пидора ответ!')
-       return'''
     if message.text == 'я' or message.text ==  'Я':
         bot.send_sticker(message.chat.id, golovka,reply_to_message_id=message.message_id)
         return
@@ -55,7 +52,5 @@ def echo_digits(message: Message):
         return
     
 
-@bot.message_handler(content_types=['sticker'])
-def sticker_handler(message: Message):
-    pass
+
 bot.polling()

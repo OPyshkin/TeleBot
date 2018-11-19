@@ -51,7 +51,7 @@ def echo_digits(message: Message):
         bot.reply_to(message, 'Нет я!')
         return
     elif 'ты пидор' in message.text or 'Ты пидор' in message.text:
-        bot.reply_to(message, CAADAgADQgEAAtnvCQABO3kaFw67_pYC )
+        bot.reply_to(message, 'Нет ты!' )
         return
     
 

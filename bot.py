@@ -22,34 +22,34 @@ def command_handler(message: Message):
 def echo_digits(message: Message):
     if message.text == 'я' or message.text ==  'Я':
         bot.send_sticker(message.chat.id, golovka,reply_to_message_id=message.message_id)
-        return
+        
     elif message.text == 'Че?' or message.text ==  'Чё?'or message.text == 'че?'or message.text == 'чё?'or message.text ==  'Че'or message.text == 'Чё'or message.text == 'чё'or message.text == 'че':
         bot.send_sticker(message.chat.id, plecho,reply_to_message_id=message.message_id)
-        return
+        
     elif message.text == 'А?' or message.text == 'а?'or message.text == 'А'or message.text == 'а':
         bot.send_sticker(message.chat.id, na,reply_to_message_id=message.message_id)
-        return
+        
     elif message.text == 'Нет' or message.text == 'нет':
         bot.send_sticker(message.chat.id, minet, reply_to_message_id=message.message_id)
-        return
+        
     elif message.text == 'ааа' or message.text == 'ААА':
         bot.send_sticker(message.chat.id, noga,reply_to_message_id=message.message_id)
-        return
+        
     elif message.text == 'Да' or message.text == 'да':
         bot.send_sticker(message.chat.id, pizda,reply_to_message_id=message.message_id)
-        return
+        
     elif message.text == 'Не' or message.text == 'не'or message.text == 'Не?'or message.text == 'не?':
         bot.send_sticker(message.chat.id, govne,reply_to_message_id=message.message_id)
-        return
+        
     elif 'пантера круто' in message.text or 'Пантера круто' in message.text:
         bot.reply_to(message, 'говно!')
-        return
+        
     elif 'мамку ебал' in message.text or 'Мамку ебал' in message.text:
         bot.reply_to(message, 'Нет я!')
-        return
+        
     elif 'ты пидор' in message.text or 'Ты пидор' in message.text:
         bot.reply_to(message, 'Нет ты!' )
-        return
+        
     
 
 

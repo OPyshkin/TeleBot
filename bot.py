@@ -44,15 +44,7 @@ def echo_digits(message: Message):
     elif message.text == 'Не' or message.text == 'не'or message.text == 'Не?'or message.text == 'не?':
         bot.send_sticker(message.chat.id, govne,reply_to_message_id=message.message_id)
         return
-    elif 'пантера круто' in message.text or 'Пантера круто' in message.text:
-        bot.reply_to(message, 'говно!')
-        return
-    elif 'мамку ебал' in message.text or 'Мамку ебал' in message.text:
-        bot.reply_to(message, 'Нет я!')
-        return
-    elif 'ты пидор' in message.text or 'Ты пидор' in message.text:
-        bot.reply_to(message, 'Нет ты!' )
-        return
+    
     
 
 @bot.message_handler(content_types=['sticker'])

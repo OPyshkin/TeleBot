@@ -1,6 +1,6 @@
 import telebot
 from telebot.types import Message
-TOKEN = '675804825:AAEePWNE3Xj5Sh0CyPrDuxsKmVnXk0MmyGI'
+TOKEN = '744743876:AAFcQDDNPoeQLN5UfkliI_GbtezNzKaeNCY'
 STICKER_ID = 'CAADAgADQgEAAtnvCQABO3kaFw67_pYC'
 golovka= 'CAADBAADjgEAAjPl4hUvI3VlUsQgtAI'
 plecho = 'CAADBAADjwEAAjPl4hU0OKNGHbQi-QI'
